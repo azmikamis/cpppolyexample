@@ -7,7 +7,8 @@ class Animal {
     public:
         Animal(int age);
         int getAge();
-        virtual char *getName() {};
+        virtual char *getName() { };
+        virtual const char *Speak() { };
     protected:
         int age;
 };

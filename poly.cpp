@@ -19,6 +19,7 @@ int main () {
     char *Name = Ourhouse[k]->getName();
     int years = Ourhouse[k]->getAge();
     cout << "Living there ... " << Name << " aged " << years << endl;
+    cout << Ourhouse[k]->Speak() << endl;
   }
 
   for (k=0; k<4; k++) {

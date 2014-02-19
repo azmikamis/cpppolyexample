@@ -8,3 +8,5 @@ Pet::Pet(char *name, int age, char *breed, int weight): Animal (age) {
 char *Pet::getName() {
     return this->name;
 }
+
+const char *Pet::Speak() { return (char *)"I don't talk"; }

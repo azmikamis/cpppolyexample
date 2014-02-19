@@ -8,6 +8,7 @@ class Human : public Animal {
     public:
         Human(char *firstname, char *lastname, int age);
         char *getName();
+        const char *Speak();
     protected:
         char *firstname;
         char *lastname;

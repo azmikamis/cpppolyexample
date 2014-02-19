@@ -15,3 +15,5 @@ char *Human::getName() {
     strcat (fullname, this->lastname);
     return fullname;
 }
+
+const char *Human::Speak() { return (char *)"I talk"; }
